@@ -1,0 +1,292 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", Sans-serif;
+ }
+
+html {
+  text-align: center; }
+
+h1 {
+  font-family: "Montserrat", Sans-serif;
+  color: #311e66;
+  font-size: 40px;
+  font-weight: 150; }
+
+body {
+  font-family: "Montserrat", Sans-serif;
+  color: #434343;
+  font-size: 14px; }
+
+#fondo {
+  display: block;
+  background-color: #281855;
+  height: auto; }
+
+#fondoVideoPresentacion {
+  display: flex;
+  align-items: center;
+  background-image: url("multimedia/fondo.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+#cuadroVideo {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%; }
+
+#logoIndex {
+  position: absolute;
+  width: 100%; }
+
+#logoIndex2 {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+  height: auto;
+  z-index: 1; }
+
+#videoPresentacion {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+#videoIndex {
+  max-width: 65%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.27); }
+
+th {
+  font-size: larger;
+  color: #311e66; }
+
+a {
+  text-decoration: none; }
+
+.logo {
+  position: sticky;
+  top: 3px;
+  display: inline;
+  max-width: 40vw;
+  max-height: 60px; }
+
+#barraNav {
+  position: sticky;
+  top: 0px;
+  background-color: #111111;
+  -webkit-box-shadow: 0px 10px 22px -5px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 10px 22px -5px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 10px 22px -5px rgba(0, 0, 0, 0.26);
+  z-index: 2; }
+
+#header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 2%; }
+
+#containerNoticias {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-content: stretch;
+  justify-content: center; }
+
+.noticia {
+  position: relative;
+  margin: 0px 8px;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.55);
+  text-align: left; }
+
+.noticiaImagen {
+  filter: opacity(60%);
+  transition-duration: 0.5s; }
+
+.noticiaImagen:hover {
+  filter: opacity(100%);
+  transition-duration: 0.5s; }
+
+.containerTexto {
+  display: block;
+  font-family: "Montserrat", Sans-serif;
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  text-shadow: 2px 2px 6px #000000; }
+  .containerTexto .fechaNoticia {
+    line-height: 0.9;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.8rem; }
+  .containerTexto .categoriaNoticia {
+    position: relative;
+    top: 2px;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize; }
+  .containerTexto .tituloNoticia {
+    position: relative;
+    top: -2px;
+    font-weight: 750;
+    font-size: 1.8rem;
+    line-height: 0.98;
+    text-transform: capitalize; }
+
+footer {
+  color: white; }
+
+.bg-p {
+  background-color: #281855; }
+
+.card, .card-header, .card-body, .card-footer, .card-img-top {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  background-color: #000000 !important; }
+
+.thumbnail-noticia {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.fondo-sombra {
+  -webkit-box-shadow: 0px 0px 7px 9px #050809;
+  -moz-box-shadow: 0px 0px 7px 9px #050809;
+  box-shadow: 0px 0px 7px 9px #050809; }
+
+.container-noticias-sombra {
+  -webkit-box-shadow: 0px 2px 20px -13px black;
+  -moz-box-shadow: 0px 2px 20px -13px black;
+  box-shadow: 0px 2px 20px -13px black; }
+
+.titulo{
+  font-size:3rem;
+  font-weight: 800;
+  color:#281855;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+
+.subtitulo{
+  color: black;
+  font-style: italic;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.19);
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nombreJugador{
+  margin-bottom: -25px;
+  margin-top: 20px;
+}
+
+.fotoJugador:hover {
+  filter: contrast(110%);
+  transition-duration: 2s;
+}
+
+.cartaJugador{
+  width: 90vw;
+  display: flex;
+  margin-top:10px;
+}
+
+.card_foto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.card_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_nick{
+  font-size:2rem;
+  font-weight: 700;
+  color:#281855;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.card_posicion{
+  color:lightslategray;
+  font-size: 0.8rem;
+  margin-top: -10px;
+}
+.card_nombre{
+  font-size:0.85rem;
+  color:lightslategray;
+}
+.card_bio{
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.presentacionJugador{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 600px){
+  .presentacionJugador{
+    flex-direction: column;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .card_nick{
+    text-align: center;
+  }
+  .card_posicion{
+    text-align: center;
+  }
+  .card_nombre{
+    text-align: center;
+  }
+  .card_bio{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
